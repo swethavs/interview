@@ -1,11 +1,12 @@
 
+package dynamicprogramming;
 import java.util.Scanner;
  // overlapping subproblem - Dynamic programming
  //will easily overflow if the number of stairs is > 34  - use big integer instead
  // complexity is 3^noOfStaris. 3 here is number of ways steps can be taken
 public class CountingStairs {
     
-    CountingStairs(){
+    public CountingStairs(){
         int noOfStairs = 0; 
 		Scanner input = new Scanner(System.in);
 		
